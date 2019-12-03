@@ -1,0 +1,44 @@
+.container {
+
+    max-width: 120rem;
+    margin: 5rem;
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark);
+    min-height: 30rem;
+}
+
+.header {
+    height: 10rem;
+    background-color: white;
+    border-bottom: var(--color-grey-light-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+    flex: 0 0 18%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.catalogue {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(black, .9);
+    padding-left: 1.5rem;
+}
+
+.bookshelf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "Booking App",
+  "main": "index.js",
+
+  }
+
+  {
+  "author": "Jonas",
+  "license": "ISC",
+}

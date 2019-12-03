@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="sass/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="/resources/fancybox-master/fancybox-master/dist/jquery.fancybox.min.js" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Bookstore</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <img src="img/bookstore_logo.jpg" alt="bookstore logo" class="logo">
+
+            <form action="#" class="search">
+
+                <input type="text" id="search" class="search__input" placeholder="Search books">
+
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <!-- <nav class="user-nav">
+
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">4</span>
+                </div>
+
+                <div class="user-nav__user">
+                    <img src="/img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Nicolás</span>
+                </div>
+
+            </nav> -->
+
+        </header>
+
+        <div class="content">
+
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                                <span>Home</span>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-open-book"></use>
+                                <span>Categories</span>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                                <span>About Us</span>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-shop"></use>
+                                <span>Our Shop</span>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="legal">
+                    &copy; 2019 by ndr. All rights reserved.
+                </div>
+
+            </nav>
+
+            <main class="catalogue">
+
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Have a look at your preferred Books</h2>
+                </div>
+
+                <div class="bookshelf">
+                </div>
+
+                <div class="carousel">
+                        <a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a>
+                        <a data-fancybox="gallery" href="big_2.jpg"><img src="small_2.jpg"></a>
+                </div>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
