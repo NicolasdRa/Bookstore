@@ -5,12 +5,8 @@
         const bookshelf = document.querySelector(".bookshelf");
         const bookList = Array.from(bookshelf.getElementsByTagName('h3'));
         
-        const renderResult = bookList.filter(book => book.textContent.toLowerCase().includes(text))
-        console.log(result)
-        return results
-
-this one up here werking
-
+        const renderResult = bookList.filter(book => book.textContent.toLowerCase().includes(text));
+        return results;
 
 
 const text = e.target.value.toLowerCase();
