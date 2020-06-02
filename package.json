@@ -1,12 +1,6 @@
 {
-  "name": "booking-app",
+  "name": "bookshop",
   "version": "1.0.0",
-  "description": "Booking App",
-  "main": "index.js",
-
-  }
-
-  {
-  "author": "Jonas",
-  "license": "ISC",
+  "description": "Bookshop App",
+  "main": "index.js"
 }

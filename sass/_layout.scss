@@ -1,5 +1,4 @@
 .container {
-
     max-width: 120rem;
     margin: 5rem;
     background-color: var(--color-grey-light-2);
@@ -23,7 +22,6 @@
 .sidebar {
     background-color: var(--color-grey-dark-1);
     flex: 0 0 18%;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,7 +35,14 @@
     padding-left: 1.5rem;
 }
 
-.bookshelf{
+.heading-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 3rem 0 3rem;
+
+}
+
+.bookshelf {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
